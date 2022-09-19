@@ -8,9 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      # A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      # AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Sharon! Welcome to my personal site. Here I introduce several projects I did before, mostly in R and Python, and you can find my latest work below.
+       Here I introduce several projects I did before, mostly in R and Python, and you can find my work below.
+    title: Hi, my name is Sharon Xu! Welcome to my personal site.
   blog: {}
   contact:
     address:
@@ -60,12 +59,12 @@ params:
   image: ''
   name: Your name
   navigation:
-    button1:
-      - name: Get Started
-        url: blogs
-    button2:
-      - name: Log In
-        url: '#'
+    #button1:
+      #- name: Get Started
+       # url: blogs
+    #button2:
+      #- name: Log In
+        #url: '#'
     links:
       - name: Home
         url: '#'
@@ -81,38 +80,33 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/aliquam
+      - image: lbs.jpeg
+        subtitle: WHO I AM
+        title: About Sharon
+        url: blogs/about_sharon
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
+        subtitle: Python
+        title: Machine Learning Project
+        url: blogs/ml
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
-        url: blogs/magna
+        subtitle: Python
+        title: NYU Business and Economics Honors Program
+        url: blogs/honors
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
+        subtitle: R
+        title: Youth Risk Behavior Surveillance
+        url: blogs/youth
       - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
+        subtitle: R
+        title: 2016 California Contributors plots
+        url: blogs/ca
       - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+        subtitle: R
+        title: Omega Group plc- Pay Discrimination
+        url: blogs/omega
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \n    Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
-      amet pharetra et feugiat tempus."
-    title: Massa libero
+    subtitle: Here is a quick overview about my projects. More blogs are coming soon...
+    title: Project Gallery
     url: blogs
